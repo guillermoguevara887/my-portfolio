@@ -3,6 +3,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Projects from '../pages/Poyects';
 import Contact from '../pages/Contact';
+import Footer from '../components/Footer';
 
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
