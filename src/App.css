@@ -185,3 +185,12 @@ body {
   font-size: 0.9rem;
   border-top: 1px solid #333;
 }
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #5e60ce;
+}
