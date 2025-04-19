@@ -77,23 +77,30 @@ body {
   background-color: #1e1e1e;
   padding: 80px 40px;
   color: #f1f1f1;
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
-.about-section h2 {
+.about-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-content h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: #ffffff;
 }
 
-.about-section p {
+.about-content p {
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #cccccc;
   margin-bottom: 20px;
 }
+
+
+
 
 /* ===== PROJECTS SECTION ===== */
 .projects-section {
@@ -280,6 +287,10 @@ body {
 
   .navbar-links.open li:nth-child(4) {
     animation-delay: 0.4s;
+  }
+
+  .about-content {
+    padding: 0 10px;
   }
 
   @keyframes fadeIn {
