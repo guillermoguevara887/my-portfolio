@@ -10,7 +10,7 @@ const Home = () => {
 
             </p>
             <a href="/cv.pdf" download className="download-btn">
-                Download My Resume
+                📄  Download My Resume
             </a>
 
         </section>
