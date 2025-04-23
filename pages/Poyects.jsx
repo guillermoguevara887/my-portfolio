@@ -10,7 +10,7 @@ const Projects = () => {
                     <h3>MemoDev Studio</h3>
                     <p>A fictional creative tech company focused on innovation, storytelling, and experimental web development.</p>
                     <span className="tech-stack">React, CSS, GitHub Pages</span>
-                    <a href="https://memo-dev-studio.vercel.app" target="_blank" rel="noopener noreferrer">
+                    <a href="https://web-page-plum.vercel.app/#projects" target="_blank" rel="noopener noreferrer">
                         Visit Website
                     </a>
                 </div>
